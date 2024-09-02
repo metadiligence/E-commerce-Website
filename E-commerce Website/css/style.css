@@ -1,0 +1,395 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.logo{
+    width: 30px;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cart{
+    width: 30px;
+    height: auto;
+    background-color: gray;
+    border-radius: 100%;
+    padding: 4px;
+}
+.searchbar{
+    width: 250px;
+}
+.main-body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+.badge{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(166, 213, 229, 0.658);
+    padding: 12px;
+    border-radius: 7px;
+    font-weight: bold;
+    color: blue;
+}
+.first-text{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header-text{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 30px;
+}
+.shopping-button{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    padding: 8px 35px 8px 35px;
+    margin-bottom: 30px;
+}
+.shopping-button:hover{
+    background-color: rgb(94, 91, 91);
+}
+
+.button-cart{
+    width: 24px;
+    height: auto;
+}
+
+#brands-images{
+    display: flex;
+    margin: 64px 0px 64px 0px;
+    justify-content: space-between;
+}
+
+.left-part{
+    margin-right: 60px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bold{
+    font-weight: bold;
+}
+
+.background{
+    background-color: rgb(239, 219, 219);
+    border-radius: 100%;
+    position: relative;
+    height: 600px;
+    width: 600px;
+}
+
+.background-image{
+    width: 600px;
+    height: auto;
+    position: absolute;
+}
+
+.promotions-section{
+    margin: 80px 0px 0px 0px;
+}
+
+.promotions-paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(18, 100, 242);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.promotions-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promotion-cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.card-in-row{
+    display: grid;
+    gap: 16px;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+}
+
+.card-in-column{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 16px;
+}
+.percent-text{
+    font-size: 40px;
+}
+
+.promotions-button{
+    background-color: rgb(64, 64, 64);
+    color: white;
+    font-size: large;
+    padding: 10px 70px 10px 70px;
+    margin: 0px 0px 30px 0px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.promotions-button:hover{
+    background-color: rgb(23, 23, 23);
+    transition: linear 0.1s;
+}
+
+.first-row-card{
+    background-color: rgb(209 213 219);
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 80px 0px 30px;
+    align-items: center;
+}
+
+.second-row-card{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.first-col-card{
+    background-color: rgb(254, 243, 199);
+
+}
+
+.second-col-card{
+    background-color: rgb(221, 214, 254);
+}
+
+.slider-paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(18, 100, 242);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 60px;
+}
+
+.slider-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-slider-items{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.product{
+    transform: scale(90%);
+    transition: ease-in-out 0.2s;
+    
+}
+.product:hover{
+    transform: scale(100%);
+    transition: ease-in-out 0.2s;
+}
+
+.details-heading{
+    display: flex;
+    justify-content: end;
+}
+
+.details-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-header{
+    font-size: 90px;
+    width: 100%;
+    color: rgb(229, 229, 229);
+}
+.details-items{
+    position: relative;
+}
+
+.d-p-1{
+    position: absolute;
+    top: -10px;
+    width: 50%;
+}
+.d-p-2{
+    position: absolute;
+    bottom: -60px;
+    width: 50%;
+}
+.d-p-3{
+    position: absolute;
+    top: -10px;
+    width: 50%;
+    right: -40px;
+}
+.d-p-4{
+    position: absolute;
+    bottom: -60px;
+    width: 50%;
+    right: -40px;
+}
+
+.details-right{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.details-button{
+    display: flex;
+    justify-content: center;   
+}
+
+.details-button button{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    border: none;
+    outline: none;
+    font-size: medium;
+    padding: 0px 30px 0px 30px;
+}
+
+.details-button button:hover{
+    background-color: rgb(64, 64, 64);
+}
+
+.newsletter{
+    font-size: 112px;
+    margin-top: 80px;
+    opacity: 10%;
+}
+
+.centered-newsletter{
+    display: grid;
+    justify-content: center;
+}
+
+.positioned-newsletter{
+    position: relative;
+}
+
+.absoluted-newsletter{
+    position: absolute;
+    top: 84px;
+    left: 140px;
+}
+.sbar-newsletter{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 120px 0px 120px 0px;
+}
+
+.about-head{
+    font-size: large;
+}
+
+.product-page{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.product-images{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.size-list li{
+    background-color: rgb(190, 188, 188);
+    padding: 10px;
+    border-radius: 100%;
+    font-weight: bold;
+}
+
+.size-list li:nth-child(1){
+    background-color: black;
+    color: white;
+}
+
+.product-quantity{
+    font-weight: bold;
+}
+
+.product-quantity span{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 100%
+}
+
+.product-button{
+    margin-top: 40px;
+}
+
+.top-bar{
+    position: relative;
+}
+
+.top-bar h1{
+    font-size: 110px;
+    font-weight: bold;
+    opacity: 40%;
+}
+
+.top-bar h4{
+    font-weight: bold;
+    position: absolute;
+    top: 60px;
+}
+
+.product-details{
+    display: flex;
+    gap: 300px;
+    margin-bottom: 40px;
+}
+
+.product-care{
+    display: flex;
+    gap: 230px;
+}
+
+.shopping-bag{
+    display: grid;
+    justify-content: center;
+
+}
